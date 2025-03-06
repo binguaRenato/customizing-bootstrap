@@ -7,16 +7,16 @@
 // 2. Include any default variable overrides here
 
 // Renato Bingua Jr. I added new Font Style
-$font-family-sans-serif: "Poppins", sans-serif;
-$font-family-monospace: "Courier New", monospace;
-$headings-font-weight: 400;
-$font-size-root: 14px;
-$h1-font-size: 2.5rem;
-$h2-font-size: 2rem;
-$h3-font-size: 1.75rem;
-$h4-font-size: 1.5rem;
-$h5-font-size: 1.25rem;
-$h6-font-size: 1rem;
+$font-family-sans-serif: "Poppins", sans-serif !important;
+$font-family-monospace: "Courier New", monospace !important;
+$headings-font-weight: 400 !important;
+$font-size-root: 14px !important;
+$h1-font-size: 2.5rem !important;
+$h2-font-size: 2rem !important;
+$h3-font-size: 1.75rem !important;
+$h4-font-size: 1.5rem !important;
+$h5-font-size: 1.25rem !important;
+$h6-font-size: 1rem !important;
 
 // Cristine joy sorilla I added Table Design
 $table-border-color: rgb(163, 160, 157) !important;
@@ -26,6 +26,13 @@ $table-color:white !important;
 @import "../../node_modules/bootstrap/scss/tables";
 
 // End
+
+//Reyna Jane Singua I modify the Badge Styling
+$badge-font-size:   .85em !important;
+$badge-color:   $orange !important;
+$badge-padding-y:   .45em !important;
+$badge-padding-x:   .75em !important;
+
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
@@ -60,6 +67,7 @@ $dropdown-border-width: 0!important;
 @import "../../node_modules/bootstrap/scss/dropdown";
 @import "../../node_modules/bootstrap/scss/forms";
 @import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/badge";
 
 
 
